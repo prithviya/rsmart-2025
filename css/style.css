@@ -85,14 +85,14 @@
 }
 
 .btn.btn-light {
-    color: #D92579;
+    color: #F26363;
     background-color: #fff !important;
 }
 
 .btn.btn-light:hover {
     color: var(--bs-white);
-    background: #D92579 !important;
-    border: 1px solid #D92579;
+    background: #F26363 !important;
+    border: 1px solid #F26363;
 }
 
 /*** Icon Animation Start ***/
@@ -294,7 +294,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--bs-white);
+    color: var(--secondary);
     background: var(--bs-secondary);
     border-radius: 67% 33% 29% 71% / 39% 46% 54% 61%;;
     animation-name: icon-animat;
@@ -327,7 +327,7 @@
     align-items: center;
     justify-content: center;
     color: var(--bs-secondary);
-    background: #D92579;
+    background: #F26363;
     animation-name: icon-animat;
     animation-duration: 5s;
     animation-delay: 1s;
@@ -403,7 +403,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #D92579;
+    color: #F26363;
     background: var(--bs-secondary);
     animation-name: icon-animat;
     animation-duration: 5s;
@@ -464,7 +464,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #D92579;
+    color: #F26363;
     background: var(--bs-secondary);
     animation-name: icon-animat;
     animation-duration: 5s;
@@ -484,7 +484,7 @@
 }
 
 .categories .categories-item:hover {
-    border: 1px solid #D92579;
+    border: 1px solid #F26363;
 }
 
 .categories .categories-item .categories-item-inner {
@@ -540,7 +540,7 @@
 
 .categories-carousel .owl-nav .owl-prev:hover,
 .categories-carousel .owl-nav .owl-next:hover {
-    background: #D92579;
+    background: #F26363;
     color: var(--bs-white);
 }
 /*** Cars Categories End ***/
@@ -637,7 +637,7 @@
     transform: translateY(-50%);
     padding: 12px 25px;
     border-radius: 10px;
-    color: #D92579;
+    color: #F26363;
     background: var(--bs-secondary);
 }
 
