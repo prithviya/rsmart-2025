@@ -1,4 +1,4 @@
-﻿/*!
+/*!
  * Bootstrap v5.0.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
@@ -19,7 +19,7 @@
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
     --bs-primary: #EA001E;
-    --bs-secondary: #182136;
+    --bs-secondary: #222;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #D92579;
@@ -29,7 +29,7 @@
     --secondary: #F26363;
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
+    --bs-gradient: #ffbb00;
 }
 
 *,
@@ -236,7 +236,11 @@ sup {
 }
 
 a {
-    color: #ea001e;
+    background-image: linear-gradient(90deg, #F71B1B 0%, #5f00ff 100%);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none
 }
 
@@ -3083,7 +3087,7 @@ fieldset:disabled .btn {
     pointer-events: none;
     opacity: .65
 }
-
+/* 
 .btn-primary {
     color: #fff;
     background-color: var(--secondary);
@@ -3102,7 +3106,7 @@ fieldset:disabled .btn {
     background-color: var(--secondary);
     border-color: var(--secondary);
     box-shadow: 0 0 0 .25rem rgba(223, 53, 197, 0.5)
-}
+} */
 
 .btn-check:checked+.btn-primary,
 .btn-check:active+.btn-primary,
@@ -8286,9 +8290,17 @@ fieldset:disabled .btn {
     word-wrap: break-word !important;
     word-break: break-word !important
 }
+.text-gradient
+{
+    background-image: linear-gradient(90deg, #F71B1B 0%, #5f00ff 100%);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .text-primary {
-    color: var(--secondary) !important
+    color: var(--bs-dark) !important
 }
 
 .text-secondary {
@@ -8348,7 +8360,7 @@ fieldset:disabled .btn {
 }
 
 .bg-secondary {
-    background-color: #1f2e4e !important
+    background-color: var(--bs-secondary)!important
 }
 
 .bg-success {
